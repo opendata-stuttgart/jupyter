@@ -1,8 +1,6 @@
 # Pull base image.
-FROM jupyter/all-spark-notebook
-MAINTAINER xxx
-
-RUN rm /bin/sh && ln -s /bin/bash /bin/sh
+FROM xblaster/tensorflow-jupyter
+MAINTAINER xx
 
 USER root
 
